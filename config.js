@@ -1,36 +1,11 @@
 module.exports = {
-  // 是否跳过 SSL 证书验证
-  skipSslVerification: false,
-  // 是否记录详细日志到文件
-  logToFile: true,
-
-  // 代理配置
-  // url: 代理服务器地址
-  // download: 下载时是否使用代理
-  // check: 搜索检测时是否使用代理
-  // play: 播放测速时是否使用代理
-  proxy: {
-    url: 'https://kuayu.hellow.eu.org',
-    download: true,
-    check: true,
-    play: false,
-  },
-
-  // 搜索检测配置
-  // timeout: 请求超时时间（毫秒）
-  // concurrent: 仅搜索模式时的并发数（playSpeedTest.enable=false 时生效）
-  // maxRetry: 搜索失败最大重试次数
-  // retryDelay: 重试间隔（毫秒）
-  // keyword: 普通视频搜索关键词
-  // adultKeyword: 成人视频搜索关键词
-  // headers: 请求头（搜索和测速共用）
-  check: {
+  // 全局 HTTP 请求配置（搜索、详情、测速、下载共用）
+  http: {
+    // 是否跳过 SSL 证书验证
+    skipSslVerification: false,
+    // 请求超时时间（毫秒）
     timeout: 5000,
-    concurrent: 20,
-    maxRetry: 2,
-    retryDelay: 1000,
-    keyword: '斗罗大陆',
-    adultKeyword: '三上悠',
+    // 公共请求头
     headers: {
       'User-Agent':
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36',
@@ -40,11 +15,43 @@ module.exports = {
     },
   },
 
+  // 日志配置
+  log: {
+    // 是否记录详细日志到文件
+    toFile: true,
+  },
+
+  // 代理配置
+  // url: 代理服务器地址，留空不启用
+  // download: 下载时是否使用代理
+  // search: 搜索检测/详情请求时是否使用代理
+  // play: 播放测速时是否使用代理
+  proxy: {
+    url: 'https://proxy.223347.xyz',
+    download: true,
+    search: true,
+    play: false,
+  },
+
+  // 搜索检测配置
+  // concurrent: 仅搜索模式时的并发数（playSpeedTest.enable=false 时生效）
+  // maxRetry: 搜索失败最大重试次数
+  // retryDelay: 重试间隔（毫秒）
+  // keyword: 普通视频搜索关键词
+  // adultKeyword: 成人视频搜索关键词，留空则使用 keyword
+  search: {
+    concurrent: 20,
+    maxRetry: 2,
+    retryDelay: 1000,
+    keyword: '斗罗大陆',
+    adultKeyword: '三上悠',
+  },
+
   // 播放测速配置
-  // enable: 是否启用播放测速（false 时只做搜索检测）
+  // enable: 是否启用播放测速（false 时仅做搜索检测）
   // episodeCount: 每个视频源测试的最大集数
   // duration: 每次测速持续时间（毫秒）
-  // concurrent: 搜索+测速模式下的总并发数（enable=true 时覆盖 check.concurrent）
+  // concurrent: 搜索+测速模式下的总并发数（enable=true 时覆盖 search.concurrent）
   playSpeedTest: {
     enable: true,
     episodeCount: 3,

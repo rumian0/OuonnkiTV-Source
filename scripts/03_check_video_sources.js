@@ -15,21 +15,21 @@ let completedCount = 0;
 let totalCount = 0;
 const logEntries = [];
 const axiosInstance = axios.create({
-  httpsAgent: new https.Agent({ rejectUnauthorized: !config.skipSslVerification }),
+  httpsAgent: new https.Agent({ rejectUnauthorized: !config.http.skipSslVerification }),
 });
 
 const delay = (ms) => new Promise((r) => setTimeout(r, ms));
 const clearLine = () => process.stdout.write('\r\x1b[K');
 const fmtMs = (ms) => (ms == null ? '----' : `${ms}ms`);
-const proxyUrl = (url, use) => (use ? `${config.proxy.url}/${url}` : url);
+const proxyUrl = (url, use) => (use && config.proxy.url ? `${config.proxy.url}/${url}` : url);
 
 function log(msg, name = null) {
   const line = `[${new Date().toLocaleTimeString('zh-CN')}] ${name ? `[${name}] ` : ''}${msg}`;
-  if (config.logToFile) logEntries.push(line);
+  if (config.log.toFile) logEntries.push(line);
 }
 
 function saveLog() {
-  if (!config.logToFile || !logEntries.length) return;
+  if (!config.log.toFile || !logEntries.length) return;
   fs.writeFileSync(LOG_FILE, logEntries.join('\n'), 'utf-8');
   console.log(`[信息] 日志已保存: ${LOG_FILE}`);
 }
@@ -65,13 +65,13 @@ async function runWithLimit(tasks, limit, onProgress) {
 }
 
 async function checkSearch(api, keyword) {
-  for (let i = 1; i <= config.check.maxRetry; i++) {
+  for (let i = 1; i <= config.search.maxRetry; i++) {
     const startTime = Date.now();
     try {
-      const url = proxyUrl(`${api}?ac=list&wd=${encodeURIComponent(keyword)}&pg=1`, config.proxy.check);
+      const url = proxyUrl(`${api}?ac=list&wd=${encodeURIComponent(keyword)}&pg=1`, config.proxy.search);
       const res = await axiosInstance.get(url, {
-        timeout: config.check.timeout,
-        headers: config.check.headers,
+        timeout: config.http.timeout,
+        headers: config.http.headers,
       });
       const duration = Date.now() - startTime;
       const list = res.data?.list || [];
@@ -79,8 +79,8 @@ async function checkSearch(api, keyword) {
         ? { status: SEARCH_STATUS.SUCCESS, duration, firstVideo: list[0] }
         : { status: SEARCH_STATUS.NO_RESULTS, duration, firstVideo: null };
     } catch (err) {
-      log(`搜索请求失败 (${i}/${config.check.maxRetry}): ${err.message}`, `[${keyword}]`);
-      if (i < config.check.maxRetry) await delay(config.check.retryDelay);
+      log(`搜索请求失败 (${i}/${config.search.maxRetry}): ${err.message}`, `[${keyword}]`);
+      if (i < config.search.maxRetry) await delay(config.search.retryDelay);
     }
   }
   return { status: SEARCH_STATUS.FAILED, duration: null, firstVideo: null };
@@ -88,8 +88,8 @@ async function checkSearch(api, keyword) {
 
 async function getPlayLinks(api, vodId) {
   try {
-    const url = proxyUrl(`${api}?ac=detail&ids=${vodId}`, config.proxy.check);
-    const res = await axiosInstance.get(url, { timeout: config.check.timeout, headers: config.check.headers });
+    const url = proxyUrl(`${api}?ac=detail&ids=${vodId}`, config.proxy.search);
+    const res = await axiosInstance.get(url, { timeout: config.http.timeout, headers: config.http.headers });
     const video = res.data?.list?.[0];
     if (!video?.vod_play_url) return [];
     const sources = (video.vod_play_from || '').split('$$$');
@@ -124,8 +124,8 @@ async function testPlaySpeed(videoUrl) {
       method: 'get',
       url: playUrl,
       responseType: 'stream',
-      timeout: config.check.timeout,
-      headers: config.check.headers,
+      timeout: config.http.timeout,
+      headers: config.http.headers,
     });
     return new Promise((resolve) => {
       const stream = res.data;
@@ -151,7 +151,7 @@ async function testPlaySpeed(videoUrl) {
 }
 
 async function testSource(source) {
-  const keyword = source.isAdult ? config.check.adultKeyword : config.check.keyword;
+  const keyword = source.isAdult ? config.search.adultKeyword : config.search.keyword;
   log(`开始测试`, source.name);
   const searchResult = await checkSearch(source.api, keyword);
   const result = {
@@ -262,10 +262,10 @@ function saveResults(results, duration) {
       hour12: false,
     }),
     playSpeedTestEnabled: config.playSpeedTest.enable,
-    keyword: config.check.keyword,
-    adultKeyword: config.check.adultKeyword,
+    keyword: config.search.keyword,
+    adultKeyword: config.search.adultKeyword,
     proxyUrl: config.proxy.url,
-    useProxy: { search: config.proxy.check, play: config.proxy.play },
+    useProxy: { search: config.proxy.search, play: config.proxy.play },
     duration: `${duration}s`,
     stats: {
       total: results.length,
@@ -286,7 +286,7 @@ async function main() {
   const sources = loadSources();
   totalCount = sources.length;
   const startTime = Date.now();
-  const concurrent = config.playSpeedTest.enable ? config.playSpeedTest.concurrent : config.check.concurrent;
+  const concurrent = config.playSpeedTest.enable ? config.playSpeedTest.concurrent : config.search.concurrent;
   const results = await runWithLimit(
     sources.map((s) => () => testSource(s)),
     concurrent,

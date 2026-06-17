@@ -40,31 +40,41 @@ node start.js
 
 ```javascript
 module.exports = {
-  skipSslVerification: false,  // 是否跳过 SSL 证书验证
-  logToFile: true,             // 是否记录详细日志到文件
+  // 全局 HTTP 请求配置（下载、搜索、详情、测速共用）
+  http: {
+    skipSslVerification: false, // 是否跳过 SSL 证书验证
+    timeout: 5000,              // 请求超时时间（毫秒）
+    headers: { ... },           // HTTP 公共请求头
+  },
 
+  // 日志配置
+  log: {
+    toFile: true,               // 是否记录详细日志到文件
+  },
+
+  // 代理配置
   proxy: {
     url: "",        // 代理 URL，留空不启用
     download: true, // 下载视频源时使用代理
-    check: true,    // 搜索检测时使用代理
+    search: true,   // 搜索检测/详情请求时使用代理
     play: false,    // 播放测速时使用代理
   },
 
-  check: {
-    timeout: 5000,        // 请求超时时间（毫秒）
-    concurrent: 20,       // 搜索并发数
-    maxRetry: 2,          // 失败重试次数
-    retryDelay: 1000,     // 重试间隔（毫秒）
-    keyword: "斗罗大陆",   // 搜索关键词（正常视频源）
-    adultKeyword: "三上悠", // 搜索关键词（成人视频源），留空则使用 keyword
-    headers: { ... },     // HTTP 请求头
+  // 搜索检测配置
+  search: {
+    concurrent: 20,         // 仅搜索模式时的并发数
+    maxRetry: 2,            // 失败重试次数
+    retryDelay: 1000,       // 重试间隔（毫秒）
+    keyword: "斗罗大陆",     // 搜索关键词（正常视频源）
+    adultKeyword: "三上悠",  // 搜索关键词（成人视频源），留空则使用 keyword
   },
 
+  // 播放测速配置
   playSpeedTest: {
     enable: true,       // 是否启用播放测速（false 时仅搜索检测）
     episodeCount: 3,    // 每个视频源测试的最大集数
     duration: 5000,     // 每次测速持续时间（毫秒）
-    concurrent: 3,      // 测速并发数
+    concurrent: 3,      // 搜索+测速模式下的总并发数
   },
 };
 ```

@@ -25,28 +25,29 @@ function padEnd(str, width) {
 
 function printConfig() {
   const p = config.proxy;
-  const c = config.check;
-  const s = config.playSpeedTest;
+  const h = config.http;
+  const s = config.search;
+  const t = config.playSpeedTest;
   const W = 18;
 
   const items = [
     ['代理地址', p.url || '未设置'],
     ['下载使用代理', yn(p.url && p.download)],
-    ['检测使用代理', yn(p.url && p.check)],
+    ['搜索使用代理', yn(p.url && p.search)],
     ['测速使用代理', yn(p.url && p.play)],
-    ['检测关键词', c.keyword],
-    ['成人检测关键词', c.adultKeyword || c.keyword],
-    ['检测超时', `${c.timeout}ms`],
-    ['检测并发', c.concurrent],
-    ['最大重试', `${c.maxRetry} 次`],
-    ['重试间隔', `${c.retryDelay}ms`],
-    ['跳过SSL验证', yn(config.skipSslVerification)],
-    ['记录日志到文件', yn(config.logToFile)],
-    ['播放测速', s.enable ? '开启' : '关闭'],
+    ['搜索关键词', s.keyword],
+    ['成人搜索关键词', s.adultKeyword || s.keyword],
+    ['请求超时', `${h.timeout}ms`],
+    ['搜索并发', s.concurrent],
+    ['最大重试', `${s.maxRetry} 次`],
+    ['重试间隔', `${s.retryDelay}ms`],
+    ['跳过SSL验证', yn(h.skipSslVerification)],
+    ['记录日志到文件', yn(config.log.toFile)],
+    ['播放测速', t.enable ? '开启' : '关闭'],
   ];
 
-  if (s.enable) {
-    items.push(['测速集数', s.episodeCount], ['测速时长', `${s.duration}ms`], ['测速并发', s.concurrent]);
+  if (t.enable) {
+    items.push(['测速集数', t.episodeCount], ['测速时长', `${t.duration}ms`], ['测速并发', t.concurrent]);
   }
 
   console.log('当前配置:');

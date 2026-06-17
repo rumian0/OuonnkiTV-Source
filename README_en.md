@@ -43,31 +43,41 @@ Edit `config.js` to customize the following settings:
 
 ```javascript
 module.exports = {
-  skipSslVerification: false,  // Whether to skip SSL certificate verification
-  logToFile: true,             // Whether to record detailed logs to file
+  // Global HTTP request config (shared by download, search, detail and speed test)
+  http: {
+    skipSslVerification: false, // Whether to skip SSL certificate verification
+    timeout: 5000,              // Request timeout (milliseconds)
+    headers: { ... },           // Common HTTP request headers
+  },
 
+  // Logging config
+  log: {
+    toFile: true,               // Whether to record detailed logs to file
+  },
+
+  // Proxy config
   proxy: {
     url: "",        // Proxy URL, leave empty to disable
     download: true, // Use proxy when downloading video sources
-    check: true,    // Use proxy when searching/checking
+    search: true,   // Use proxy when searching/fetching details
     play: false,    // Use proxy when testing playback speed
   },
 
-  check: {
-    timeout: 5000,        // Request timeout (milliseconds)
-    concurrent: 20,       // Concurrent search requests
-    maxRetry: 2,          // Number of retries on failure
-    retryDelay: 1000,     // Retry interval (milliseconds)
-    keyword: "斗罗大陆",   // Search keyword (normal video sources)
-    adultKeyword: "三上悠", // Search keyword (adult video sources), leave empty to use keyword
-    headers: { ... },     // HTTP request headers
+  // Search detection config
+  search: {
+    concurrent: 20,         // Concurrent search requests (search-only mode)
+    maxRetry: 2,            // Number of retries on failure
+    retryDelay: 1000,       // Retry interval (milliseconds)
+    keyword: "斗罗大陆",     // Search keyword (normal video sources)
+    adultKeyword: "三上悠",  // Search keyword (adult video sources), leave empty to use keyword
   },
 
+  // Playback speed test config
   playSpeedTest: {
     enable: true,       // Whether to enable playback speed test (false means search check only)
     episodeCount: 3,    // Maximum number of episodes to test per video source
     duration: 5000,     // Duration of each speed test (milliseconds)
-    concurrent: 3,      // Concurrent speed test requests
+    concurrent: 3,      // Total concurrency in search + speed test mode
   },
 };
 ```
