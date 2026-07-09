@@ -7,13 +7,6 @@
     "isEnabled": true
   },
   {
-    "id": "caiji-moduapi-cc",
-    "name": "魔都动漫",
-    "url": "https://caiji.moduapi.cc/api.php/provide/vod",
-    "detailUrl": "https://caiji.moduapi.cc",
-    "isEnabled": true
-  },
-  {
     "id": "jinyingzy-com",
     "name": "金鹰点播",
     "url": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
@@ -21,17 +14,17 @@
     "isEnabled": true
   },
   {
-    "id": "www-moduzy-net",
-    "name": "魔都资源",
-    "url": "https://www.mdzyapi.com/api.php/provide/vod",
-    "detailUrl": "https://www.moduzy.net",
+    "id": "www-huyaapi-com",
+    "name": "虎牙资源",
+    "url": "https://www.huyaapi.com/api.php/provide/vod",
+    "detailUrl": "https://www.huyaapi.com",
     "isEnabled": true
   },
   {
-    "id": "ikunzy-com",
-    "name": "iKun资源",
-    "url": "https://ikunzyapi.com/api.php/provide/vod",
-    "detailUrl": "https://ikunzy.com",
+    "id": "api-guangsuapi-com",
+    "name": "光速资源",
+    "url": "https://api.guangsuapi.com/api.php/provide/vod",
+    "detailUrl": "https://api.guangsuapi.com",
     "isEnabled": true
   },
   {
@@ -49,17 +42,31 @@
     "isEnabled": true
   },
   {
-    "id": "api-guangsuapi-com",
-    "name": "光速资源",
-    "url": "https://api.guangsuapi.com/api.php/provide/vod",
-    "detailUrl": "https://api.guangsuapi.com",
+    "id": "caiji-moduapi-cc",
+    "name": "魔都动漫",
+    "url": "https://caiji.moduapi.cc/api.php/provide/vod",
+    "detailUrl": "https://caiji.moduapi.cc",
     "isEnabled": true
   },
   {
-    "id": "www-huyaapi-com",
-    "name": "虎牙资源",
-    "url": "https://www.huyaapi.com/api.php/provide/vod",
-    "detailUrl": "https://www.huyaapi.com",
+    "id": "ikunzy-com",
+    "name": "iKun资源",
+    "url": "https://ikunzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://ikunzy.com",
+    "isEnabled": true
+  },
+  {
+    "id": "www-maoyanzy-com",
+    "name": "猫眼资源",
+    "url": "https://api.maoyanapi.top/api.php/provide/vod",
+    "detailUrl": "https://www.maoyanzy.com",
+    "isEnabled": true
+  },
+  {
+    "id": "www-moduzy-net",
+    "name": "魔都资源",
+    "url": "https://www.mdzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://www.moduzy.net",
     "isEnabled": true
   },
   {
@@ -70,10 +77,10 @@
     "isEnabled": true
   },
   {
-    "id": "www-maoyanzy-com",
-    "name": "猫眼资源",
-    "url": "https://api.maoyanapi.top/api.php/provide/vod",
-    "detailUrl": "https://www.maoyanzy.com",
+    "id": "1080zyk4-com",
+    "name": "优质资源",
+    "url": "https://api.yzzy-api.com/inc/apijson.php",
+    "detailUrl": "https://1080zyk4.com",
     "isEnabled": true
   },
   {
