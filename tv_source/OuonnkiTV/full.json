@@ -42,20 +42,6 @@
     "isEnabled": true
   },
   {
-    "id": "jinyingzy-com",
-    "name": "金鹰点播",
-    "url": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
-    "detailUrl": "https://jinyingzy.com",
-    "isEnabled": true
-  },
-  {
-    "id": "api-guangsuapi-com",
-    "name": "光速资源",
-    "url": "https://api.guangsuapi.com/api.php/provide/vod",
-    "detailUrl": "https://api.guangsuapi.com",
-    "isEnabled": true
-  },
-  {
     "id": "www-hongniuzy-com",
     "name": "红牛资源",
     "url": "https://www.hongniuzy2.com/api.php/provide/vod",
@@ -74,20 +60,6 @@
     "name": "如意资源",
     "url": "https://cj.rycjapi.com/api.php/provide/vod",
     "detailUrl": "https://www.ryzyw.com",
-    "isEnabled": true
-  },
-  {
-    "id": "1080zyk4-com",
-    "name": "优质资源",
-    "url": "https://api.yzzy-api.com/inc/apijson.php",
-    "detailUrl": "https://1080zyk4.com",
-    "isEnabled": true
-  },
-  {
-    "id": "www-huyaapi-com",
-    "name": "虎牙资源",
-    "url": "https://www.huyaapi.com/api.php/provide/vod",
-    "detailUrl": "https://www.huyaapi.com",
     "isEnabled": true
   },
   {
@@ -130,13 +102,6 @@
     "name": "小鸡资源",
     "url": "https://api.xiaojizy.live/provide/vod",
     "detailUrl": "https://xiaojizy.live",
-    "isEnabled": true
-  },
-  {
-    "id": "hsckzy-xyz",
-    "name": "黄色仓库",
-    "url": "https://hsckzy.xyz/api.php/provide/vod",
-    "detailUrl": "https://hsckzy.xyz",
     "isEnabled": true
   },
   {
@@ -207,13 +172,6 @@
     "name": "精品资源",
     "url": "https://www.jingpinx.com/api.php/provide/vod",
     "detailUrl": "https://www.jingpinx.com",
-    "isEnabled": true
-  },
-  {
-    "id": "souavzyw-com",
-    "name": "souavZY",
-    "url": "https://api.souavzyw.net/api.php/provide/vod",
-    "detailUrl": "https://api.souavzyw.net",
     "isEnabled": true
   },
   {
