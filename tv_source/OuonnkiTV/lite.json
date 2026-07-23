@@ -1,16 +1,16 @@
 [
   {
+    "id": "jszyapi-com",
+    "name": "极速资源",
+    "url": "https://jszyapi.com/api.php/provide/vod",
+    "detailUrl": "https://jszyapi.com",
+    "isEnabled": true
+  },
+  {
     "id": "www-subozy-com",
     "name": "速播资源",
     "url": "https://subocaiji.com/api.php/provide/vod",
     "detailUrl": "https://www.subozy.com",
-    "isEnabled": true
-  },
-  {
-    "id": "www-haohuazy-com",
-    "name": "豪华资源",
-    "url": "https://hhzyapi.com/api.php/provide/vod",
-    "detailUrl": "https://www.haohuazy.com",
     "isEnabled": true
   },
   {
@@ -21,17 +21,10 @@
     "isEnabled": true
   },
   {
-    "id": "jszyapi-com",
-    "name": "极速资源",
-    "url": "https://jszyapi.com/api.php/provide/vod",
-    "detailUrl": "https://jszyapi.com",
-    "isEnabled": true
-  },
-  {
-    "id": "api-guangsuapi-com",
-    "name": "光速资源",
-    "url": "https://api.guangsuapi.com/api.php/provide/vod",
-    "detailUrl": "https://api.guangsuapi.com",
+    "id": "www-haohuazy-com",
+    "name": "豪华资源",
+    "url": "https://hhzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://www.haohuazy.com",
     "isEnabled": true
   },
   {
@@ -49,6 +42,13 @@
     "isEnabled": true
   },
   {
+    "id": "api-guangsuapi-com",
+    "name": "光速资源",
+    "url": "https://api.guangsuapi.com/api.php/provide/vod",
+    "detailUrl": "https://api.guangsuapi.com",
+    "isEnabled": true
+  },
+  {
     "id": "www-hongniuzy-com",
     "name": "红牛资源",
     "url": "https://www.hongniuzy2.com/api.php/provide/vod",
@@ -60,6 +60,20 @@
     "name": "金鹰点播",
     "url": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
     "detailUrl": "https://jinyingzy.com",
+    "isEnabled": true
+  },
+  {
+    "id": "www-maoyanzy-com",
+    "name": "猫眼资源",
+    "url": "https://api.maoyanapi.top/api.php/provide/vod",
+    "detailUrl": "https://www.maoyanzy.com",
+    "isEnabled": true
+  },
+  {
+    "id": "ikunzy-com",
+    "name": "iKun资源",
+    "url": "https://ikunzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://ikunzy.com",
     "isEnabled": true
   },
   {
@@ -77,24 +91,10 @@
     "isEnabled": true
   },
   {
-    "id": "ikunzy-com",
-    "name": "iKun资源",
-    "url": "https://ikunzyapi.com/api.php/provide/vod",
-    "detailUrl": "https://ikunzy.com",
-    "isEnabled": true
-  },
-  {
     "id": "www-ryzyw-com",
     "name": "如意资源",
     "url": "https://cj.rycjapi.com/api.php/provide/vod",
     "detailUrl": "https://www.ryzyw.com",
-    "isEnabled": true
-  },
-  {
-    "id": "www-maoyanzy-com",
-    "name": "猫眼资源",
-    "url": "https://api.maoyanapi.top/api.php/provide/vod",
-    "detailUrl": "https://www.maoyanzy.com",
     "isEnabled": true
   }
 ]
