@@ -1,9 +1,9 @@
 [
   {
-    "id": "api-guangsuapi-com",
-    "name": "光速资源",
-    "url": "https://api.guangsuapi.com/api.php/provide/vod",
-    "detailUrl": "https://api.guangsuapi.com",
+    "id": "xinlangapi-com",
+    "name": "新浪资源",
+    "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+    "detailUrl": "https://xinlangapi.com",
     "isEnabled": true
   },
   {
@@ -21,10 +21,10 @@
     "isEnabled": true
   },
   {
-    "id": "xinlangapi-com",
-    "name": "新浪资源",
-    "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
-    "detailUrl": "https://xinlangapi.com",
+    "id": "api-guangsuapi-com",
+    "name": "光速资源",
+    "url": "https://api.guangsuapi.com/api.php/provide/vod",
+    "detailUrl": "https://api.guangsuapi.com",
     "isEnabled": true
   },
   {
@@ -77,13 +77,6 @@
     "isEnabled": true
   },
   {
-    "id": "www-maoyanzy-com",
-    "name": "猫眼资源",
-    "url": "https://api.maoyanapi.top/api.php/provide/vod",
-    "detailUrl": "https://www.maoyanzy.com",
-    "isEnabled": true
-  },
-  {
     "id": "www-ryzyw-com",
     "name": "如意资源",
     "url": "https://cj.rycjapi.com/api.php/provide/vod",
@@ -91,10 +84,10 @@
     "isEnabled": true
   },
   {
-    "id": "1080zyk4-com",
-    "name": "优质资源",
-    "url": "https://api.yzzy-api.com/inc/apijson.php",
-    "detailUrl": "https://1080zyk4.com",
+    "id": "www-maoyanzy-com",
+    "name": "猫眼资源",
+    "url": "https://api.maoyanapi.top/api.php/provide/vod",
+    "detailUrl": "https://www.maoyanzy.com",
     "isEnabled": true
   }
 ]
