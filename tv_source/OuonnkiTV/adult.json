@@ -126,13 +126,6 @@
     "isEnabled": true
   },
   {
-    "id": "xiangjiaozyw-com",
-    "name": "香蕉资源",
-    "url": "https://www.xiangjiaozyw.com/api.php/provide/vod",
-    "detailUrl": "https://www.xiangjiaozyw.com",
-    "isEnabled": true
-  },
-  {
     "id": "www-msnii-com",
     "name": "美少女",
     "url": "https://www.msnii.com/api/json.php",
