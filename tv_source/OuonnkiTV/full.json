@@ -1,5 +1,12 @@
 [
   {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "url": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detailUrl": "https://iqiyizyapi.com",
+    "isEnabled": true
+  },
+  {
     "id": "ikunzy-com",
     "name": "iKun资源",
     "url": "https://ikunzyapi.com/api.php/provide/vod",
@@ -74,13 +81,6 @@
     "name": "魔都动漫",
     "url": "https://caiji.moduapi.cc/api.php/provide/vod",
     "detailUrl": "https://caiji.moduapi.cc",
-    "isEnabled": true
-  },
-  {
-    "id": "www-ryzyw-com",
-    "name": "如意资源",
-    "url": "https://cj.rycjapi.com/api.php/provide/vod",
-    "detailUrl": "https://www.ryzyw.com",
     "isEnabled": true
   },
   {
@@ -182,6 +182,13 @@
     "isEnabled": true
   },
   {
+    "id": "shayuapi-com",
+    "name": "鲨鱼资源",
+    "url": "https://shayuapi.com/api.php/provide/vod",
+    "detailUrl": "https://shayuapi.com",
+    "isEnabled": true
+  },
+  {
     "id": "didizy-com",
     "name": "滴滴资源",
     "url": "https://api.ddapi.cc/api.php/provide/vod",
@@ -193,20 +200,6 @@
     "name": "黑料资源",
     "url": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "detailUrl": "https://heiliaozy.cc",
-    "isEnabled": true
-  },
-  {
-    "id": "thzy8-me",
-    "name": "桃花资源",
-    "url": "https://thzy1.me/api.php/provide/vod",
-    "detailUrl": "https://thzy8.me",
-    "isEnabled": true
-  },
-  {
-    "id": "www-jingpinx-com",
-    "name": "精品资源",
-    "url": "https://www.jingpinx.com/api.php/provide/vod",
-    "detailUrl": "https://www.jingpinx.com",
     "isEnabled": true
   },
   {
