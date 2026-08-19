@@ -70,6 +70,13 @@
     "isEnabled": true
   },
   {
+    "id": "caiji-moduapi-cc",
+    "name": "魔都动漫",
+    "url": "https://caiji.moduapi.cc/api.php/provide/vod",
+    "detailUrl": "https://caiji.moduapi.cc",
+    "isEnabled": true
+  },
+  {
     "id": "www-ryzyw-com",
     "name": "如意资源",
     "url": "https://cj.rycjapi.com/api.php/provide/vod",
@@ -130,13 +137,6 @@
     "name": "小鸡资源",
     "url": "https://api.xiaojizy.live/provide/vod",
     "detailUrl": "https://xiaojizy.live",
-    "isEnabled": true
-  },
-  {
-    "id": "hsckzy-xyz",
-    "name": "黄色仓库",
-    "url": "https://hsckzy.xyz/api.php/provide/vod",
-    "detailUrl": "https://hsckzy.xyz",
     "isEnabled": true
   },
   {
