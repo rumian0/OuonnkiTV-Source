@@ -28,13 +28,6 @@
     "isEnabled": true
   },
   {
-    "id": "apilsbzy1-com",
-    "name": "老色逼",
-    "url": "https://apilsbzy1.com/api.php/provide/vod",
-    "detailUrl": "https://apilsbzy1.com",
-    "isEnabled": true
-  },
-  {
     "id": "xiaojizy-live",
     "name": "小鸡资源",
     "url": "https://api.xiaojizy.live/provide/vod",
@@ -42,17 +35,17 @@
     "isEnabled": true
   },
   {
+    "id": "hsckzy-xyz",
+    "name": "黄色仓库",
+    "url": "https://hsckzy.xyz/api.php/provide/vod",
+    "detailUrl": "https://hsckzy.xyz",
+    "isEnabled": true
+  },
+  {
     "id": "apidanaizi-com",
     "name": "大奶子",
     "url": "https://apidanaizi.com/api.php/provide/vod",
     "detailUrl": "https://apidanaizi.com",
-    "isEnabled": true
-  },
-  {
-    "id": "jkunzyapi-com",
-    "name": "jkun资源",
-    "url": "https://jkunzyapi.com/api.php/provide/vod",
-    "detailUrl": "https://jkunzyapi.com",
     "isEnabled": true
   },
   {
