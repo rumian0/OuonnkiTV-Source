@@ -1,5 +1,19 @@
 [
   {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "url": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detailUrl": "https://iqiyizyapi.com",
+    "isEnabled": true
+  },
+  {
+    "id": "ikunzy-com",
+    "name": "iKun资源",
+    "url": "https://ikunzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://ikunzy.com",
+    "isEnabled": true
+  },
+  {
     "id": "www-maoyanzy-com",
     "name": "猫眼资源",
     "url": "https://api.maoyanapi.top/api.php/provide/vod",
@@ -112,6 +126,13 @@
     "isEnabled": true
   },
   {
+    "id": "apilsbzy1-com",
+    "name": "老色逼",
+    "url": "https://apilsbzy1.com/api.php/provide/vod",
+    "detailUrl": "https://apilsbzy1.com",
+    "isEnabled": true
+  },
+  {
     "id": "xiaojizy-live",
     "name": "小鸡资源",
     "url": "https://api.xiaojizy.live/provide/vod",
@@ -130,6 +151,13 @@
     "name": "大奶子",
     "url": "https://apidanaizi.com/api.php/provide/vod",
     "detailUrl": "https://apidanaizi.com",
+    "isEnabled": true
+  },
+  {
+    "id": "jkunzyapi-com",
+    "name": "jkun资源",
+    "url": "https://jkunzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://jkunzyapi.com",
     "isEnabled": true
   },
   {
@@ -158,13 +186,6 @@
     "name": "辣椒资源",
     "url": "https://apilj.com/api.php/provide/vod",
     "detailUrl": "https://apilj.com",
-    "isEnabled": true
-  },
-  {
-    "id": "shayuapi-com",
-    "name": "鲨鱼资源",
-    "url": "https://shayuapi.com/api.php/provide/vod",
-    "detailUrl": "https://shayuapi.com",
     "isEnabled": true
   },
   {
