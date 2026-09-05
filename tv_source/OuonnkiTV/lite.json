@@ -1,12 +1,5 @@
 [
   {
-    "id": "xinlangapi-com",
-    "name": "新浪资源",
-    "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
-    "detailUrl": "https://xinlangapi.com",
-    "isEnabled": true
-  },
-  {
     "id": "www-subozy-com",
     "name": "速播资源",
     "url": "https://subocaiji.com/api.php/provide/vod",
@@ -21,6 +14,13 @@
     "isEnabled": true
   },
   {
+    "id": "xinlangapi-com",
+    "name": "新浪资源",
+    "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+    "detailUrl": "https://xinlangapi.com",
+    "isEnabled": true
+  },
+  {
     "id": "www-huyaapi-com",
     "name": "虎牙资源",
     "url": "https://www.huyaapi.com/api.php/provide/vod",
@@ -28,10 +28,10 @@
     "isEnabled": true
   },
   {
-    "id": "iqiyizyapi-com",
-    "name": "爱奇艺",
-    "url": "https://iqiyizyapi.com/api.php/provide/vod",
-    "detailUrl": "https://iqiyizyapi.com",
+    "id": "bfzy-tv",
+    "name": "暴风资源",
+    "url": "https://bfzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://bfzy.tv",
     "isEnabled": true
   },
   {
@@ -39,6 +39,13 @@
     "name": "红牛资源",
     "url": "https://www.hongniuzy2.com/api.php/provide/vod",
     "detailUrl": "https://www.hongniuzy.com",
+    "isEnabled": true
+  },
+  {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "url": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detailUrl": "https://iqiyizyapi.com",
     "isEnabled": true
   },
   {
@@ -70,17 +77,17 @@
     "isEnabled": true
   },
   {
-    "id": "ikunzy-com",
-    "name": "iKun资源",
-    "url": "https://ikunzyapi.com/api.php/provide/vod",
-    "detailUrl": "https://ikunzy.com",
-    "isEnabled": true
-  },
-  {
     "id": "www-maoyanzy-com",
     "name": "猫眼资源",
     "url": "https://api.maoyanapi.top/api.php/provide/vod",
     "detailUrl": "https://www.maoyanzy.com",
+    "isEnabled": true
+  },
+  {
+    "id": "ikunzy-com",
+    "name": "iKun资源",
+    "url": "https://ikunzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://ikunzy.com",
     "isEnabled": true
   },
   {
