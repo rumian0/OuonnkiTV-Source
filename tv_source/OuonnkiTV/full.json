@@ -1,12 +1,5 @@
 [
   {
-    "id": "iqiyizyapi-com",
-    "name": "爱奇艺",
-    "url": "https://iqiyizyapi.com/api.php/provide/vod",
-    "detailUrl": "https://iqiyizyapi.com",
-    "isEnabled": true
-  },
-  {
     "id": "ikunzy-com",
     "name": "iKun资源",
     "url": "https://ikunzyapi.com/api.php/provide/vod",
@@ -214,13 +207,6 @@
     "name": "精品资源",
     "url": "https://www.jingpinx.com/api.php/provide/vod",
     "detailUrl": "https://www.jingpinx.com",
-    "isEnabled": true
-  },
-  {
-    "id": "www-msnii-com",
-    "name": "美少女",
-    "url": "https://www.msnii.com/api/json.php",
-    "detailUrl": "https://www.msnii.com",
     "isEnabled": true
   },
   {

@@ -119,13 +119,6 @@
     "isEnabled": true
   },
   {
-    "id": "www-msnii-com",
-    "name": "美少女",
-    "url": "https://www.msnii.com/api/json.php",
-    "detailUrl": "https://www.msnii.com",
-    "isEnabled": true
-  },
-  {
     "id": "www-pgxdy-com",
     "name": "黄AVZY",
     "url": "https://www.pgxdy.com/api/json.php",
