@@ -1,5 +1,5 @@
 {
-  "date": "2026/09/12 07:55",
+  "date": "2026/09/13 07:48",
   "playSpeedTestEnabled": true,
   "keyword": "斗罗大陆",
   "adultKeyword": "三上悠",
@@ -8,11 +8,11 @@
     "search": true,
     "play": false
   },
-  "duration": "53.1s",
+  "duration": "58.2s",
   "stats": {
     "total": 72,
     "searchOk": 50,
-    "playOk": 33
+    "playOk": 32
   },
   "results": [
     {
@@ -24,28 +24,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 1985
+        "duration": 4379
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 2271,
-            "error": "Request failed with status code 404",
+            "duration": 5003,
+            "error": "timeout of 5000ms exceeded",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 4976,
-            "error": "Request failed with status code 404",
+            "duration": 5002,
+            "error": "timeout of 5000ms exceeded",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 5002,
+            "duration": 5001,
             "error": "timeout of 5000ms exceeded",
             "speed": 0
           }
@@ -62,7 +62,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 849
+        "duration": 700
       },
       "play": {
         "tests": [],
@@ -78,7 +78,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 1521
+        "duration": 2412
       },
       "play": {
         "tests": [],
@@ -94,7 +94,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 712
+        "duration": 601
       },
       "play": {
         "tests": [],
@@ -110,30 +110,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 286
+        "duration": 299
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 952,
-            "speed": 103.99159663865547
+            "duration": 542,
+            "speed": 182.65682656826567
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 223,
-            "speed": 443.94618834080717
+            "duration": 360,
+            "speed": 275
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 302,
-            "speed": 327.81456953642385
+            "duration": 316,
+            "speed": 313.2911392405063
           }
         ],
-        "avgSpeed": 291.9174515052955
+        "avgSpeed": 256.9826552695907
       }
     },
     {
@@ -145,28 +145,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 414
+        "duration": 425
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 2505,
+            "duration": 2163,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 1705,
+            "duration": 1930,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 1521,
+            "duration": 1719,
             "error": "Request failed with status code 403",
             "speed": 0
           }
@@ -183,30 +183,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 1086
+        "duration": 1213
       },
       "play": {
         "tests": [
           {
             "episode": "斗罗人物志·毒不死·舍身为国",
             "success": true,
-            "duration": 615,
-            "speed": 193.4959349593496
+            "duration": 3037,
+            "speed": 39.18340467566678
           },
           {
             "episode": "斗罗人物志·霍雨浩·战力回顾",
             "success": true,
-            "duration": 383,
-            "speed": 310.70496083550916
+            "duration": 3096,
+            "speed": 38.43669250645995
           },
           {
             "episode": "第001集",
             "success": true,
-            "duration": 424,
-            "speed": 261.79245283018867
+            "duration": 657,
+            "speed": 168.9497716894977
           }
         ],
-        "avgSpeed": 255.33111620834916
+        "avgSpeed": 82.18995629054147
       }
     },
     {
@@ -218,28 +218,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 393
+        "duration": 320
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 786,
+            "duration": 651,
             "error": "Request failed with status code 404",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 527,
+            "duration": 364,
             "error": "Request failed with status code 404",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 589,
+            "duration": 470,
             "error": "Request failed with status code 404",
             "speed": 0
           }
@@ -256,30 +256,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 631
+        "duration": 676
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 987,
-            "speed": 120.56737588652483
+            "duration": 941,
+            "speed": 126.46121147715198
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 659,
-            "speed": 180.57663125948406
+            "duration": 665,
+            "speed": 178.94736842105263
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 607,
-            "speed": 196.04612850082373
+            "duration": 595,
+            "speed": 200
           }
         ],
-        "avgSpeed": 165.7300452156109
+        "avgSpeed": 168.46952663273487
       }
     },
     {
@@ -291,28 +291,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 305
+        "duration": 265
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 148,
+            "duration": 97,
             "error": "connect ECONNREFUSED 127.0.0.1:443",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 210,
+            "duration": 170,
             "error": "connect ECONNREFUSED 127.0.0.1:443",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 148,
+            "duration": 10,
             "error": "connect ECONNREFUSED 127.0.0.1:443",
             "speed": 0
           }
@@ -329,30 +329,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 310
+        "duration": 456
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 488,
-            "speed": 241.80327868852459
+            "duration": 365,
+            "speed": 323.28767123287673
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 261,
-            "speed": 452.1072796934866
+            "duration": 378,
+            "speed": 312.16931216931215
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 294,
-            "speed": 404.76190476190476
+            "duration": 333,
+            "speed": 357.35735735735733
           }
         ],
-        "avgSpeed": 366.22415438130537
+        "avgSpeed": 330.9381135865154
       }
     },
     {
@@ -364,28 +364,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 896
+        "duration": 1230
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 1914,
+            "duration": 1924,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 1408,
+            "duration": 1481,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 1376,
+            "duration": 1752,
             "error": "Request failed with status code 403",
             "speed": 0
           }
@@ -402,28 +402,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 413
+        "duration": 393
       },
       "play": {
         "tests": [
           {
             "episode": "90分钟结局",
             "success": false,
-            "duration": 788,
+            "duration": 1177,
             "error": "Request failed with status code 404",
             "speed": 0
           },
           {
             "episode": "第01集",
             "success": false,
-            "duration": 1053,
+            "duration": 982,
             "error": "Request failed with status code 404",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 381,
+            "duration": 355,
             "error": "Request failed with status code 404",
             "speed": 0
           }
@@ -440,28 +440,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 1079
+        "duration": 1090
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 639,
+            "duration": 503,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 324,
+            "duration": 187,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 354,
+            "duration": 248,
             "error": "Request failed with status code 403",
             "speed": 0
           }
@@ -478,28 +478,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 1295
+        "duration": 1112
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 651,
+            "duration": 725,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 189,
+            "duration": 420,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 472,
+            "duration": 219,
             "error": "Request failed with status code 403",
             "speed": 0
           }
@@ -516,30 +516,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 487
+        "duration": 504
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 114,
-            "speed": 198087.71929824562
+            "duration": 260,
+            "speed": 86853.84615384616
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 150,
-            "speed": 151633.33333333334
+            "duration": 256,
+            "speed": 88750
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 178,
-            "speed": 58786.51685393259
+            "duration": 162,
+            "speed": 64592.59259259259
           }
         ],
-        "avgSpeed": 136169.18982850385
+        "avgSpeed": 80065.47958214625
       }
     },
     {
@@ -551,7 +551,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 622
+        "duration": 523
       },
       "play": {
         "tests": [],
@@ -567,30 +567,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 461
+        "duration": 603
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 119,
-            "speed": 189764.70588235295
+            "duration": 185,
+            "speed": 122064.86486486487
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 103,
-            "speed": 220825.24271844662
+            "duration": 170,
+            "speed": 133647.0588235294
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 88,
-            "speed": 118909.09090909091
+            "duration": 134,
+            "speed": 78089.55223880596
           }
         ],
-        "avgSpeed": 176499.67983663015
+        "avgSpeed": 111267.15864240007
       }
     },
     {
@@ -602,30 +602,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 419
+        "duration": 414
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 1294,
-            "speed": 1231.066460587326
+            "duration": 1302,
+            "speed": 1223.5023041474653
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 725,
-            "speed": 2197.241379310345
+            "duration": 1510,
+            "speed": 1054.9668874172185
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 743,
-            "speed": 2144.0107671601613
+            "duration": 1010,
+            "speed": 1577.2277227722773
           }
         ],
-        "avgSpeed": 1857.439535685944
+        "avgSpeed": 1285.2323047789869
       }
     },
     {
@@ -653,28 +653,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 286
+        "duration": 118
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 1467,
+            "duration": 1461,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 1218,
+            "duration": 1308,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 1162,
+            "duration": 1189,
             "error": "Request failed with status code 403",
             "speed": 0
           }
@@ -691,30 +691,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 443
+        "duration": 508
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 188,
-            "speed": 574.468085106383
+            "duration": 211,
+            "speed": 511.8483412322275
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 177,
-            "speed": 610.1694915254237
+            "duration": 129,
+            "speed": 837.2093023255813
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 87,
-            "speed": 1241.3793103448277
+            "duration": 125,
+            "speed": 864
           }
         ],
-        "avgSpeed": 808.6722956588782
+        "avgSpeed": 737.6858811859362
       }
     },
     {
@@ -726,30 +726,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 386
+        "duration": 228
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 2088,
-            "speed": 10949.71264367816
+            "duration": 1513,
+            "speed": 15111.037673496367
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 986,
-            "speed": 23354.969574036513
+            "duration": 1361,
+            "speed": 16919.911829537104
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 765,
-            "speed": 13847.05882352941
+            "duration": 1597,
+            "speed": 6633.061991233563
           }
         ],
-        "avgSpeed": 16050.580347081363
+        "avgSpeed": 12888.003831422344
       }
     },
     {
@@ -761,30 +761,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 318
+        "duration": 402
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 205,
-            "speed": 575.609756097561
+            "duration": 354,
+            "speed": 333.33333333333337
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 245,
-            "speed": 481.6326530612245
+            "duration": 382,
+            "speed": 308.9005235602094
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 427,
-            "speed": 278.6885245901639
+            "duration": 353,
+            "speed": 337.1104815864023
           }
         ],
-        "avgSpeed": 445.3103112496498
+        "avgSpeed": 326.44811282664836
       }
     },
     {
@@ -796,30 +796,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 1660
+        "duration": 1486
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 960,
-            "speed": 100
+            "duration": 986,
+            "speed": 97.3630831643002
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 356,
-            "speed": 269.6629213483146
+            "duration": 513,
+            "speed": 187.1345029239766
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 490,
-            "speed": 195.91836734693877
+            "duration": 524,
+            "speed": 183.206106870229
           }
         ],
-        "avgSpeed": 188.52709623175113
+        "avgSpeed": 155.9012309861686
       }
     },
     {
@@ -831,30 +831,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 452
+        "duration": 402
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 116,
-            "speed": 199517.24137931035
+            "duration": 252,
+            "speed": 91841.26984126984
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 115,
-            "speed": 202704.34782608695
+            "duration": 173,
+            "speed": 134601.15606936417
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 97,
-            "speed": 110536.0824742268
+            "duration": 127,
+            "speed": 84228.34645669292
           }
         ],
-        "avgSpeed": 170919.22389320805
+        "avgSpeed": 103556.9241224423
       }
     },
     {
@@ -898,28 +898,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 326
+        "duration": 258
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 378,
+            "duration": 601,
             "error": "Request failed with status code 404",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 615,
+            "duration": 445,
             "error": "Request failed with status code 404",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 490,
+            "duration": 486,
             "error": "Request failed with status code 404",
             "speed": 0
           }
@@ -936,28 +936,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 1266
+        "duration": 978
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 164,
+            "duration": 415,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 366,
+            "duration": 327,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 188,
+            "duration": 326,
             "error": "Request failed with status code 403",
             "speed": 0
           }
@@ -974,28 +974,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 310
+        "duration": 295
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 411,
+            "duration": 378,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 280,
+            "duration": 353,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 374,
+            "duration": 404,
             "error": "Request failed with status code 403",
             "speed": 0
           }
@@ -1012,7 +1012,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 540
+        "duration": 460
       },
       "play": {
         "tests": [],
@@ -1028,28 +1028,28 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 666
+        "duration": 603
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": false,
-            "duration": 2349,
+            "duration": 2304,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第02集",
             "success": false,
-            "duration": 1409,
+            "duration": 1730,
             "error": "Request failed with status code 403",
             "speed": 0
           },
           {
             "episode": "第03集",
             "success": false,
-            "duration": 1968,
+            "duration": 2028,
             "error": "Request failed with status code 403",
             "speed": 0
           }
@@ -1066,30 +1066,30 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 474
+        "duration": 338
       },
       "play": {
         "tests": [
           {
             "episode": "第01集",
             "success": true,
-            "duration": 1227,
-            "speed": 20236.34881825591
+            "duration": 831,
+            "speed": 29849.578820697956
           },
           {
             "episode": "第02集",
             "success": true,
-            "duration": 1030,
-            "speed": 24280.582524271846
+            "duration": 1258,
+            "speed": 19879.968203497614
           },
           {
             "episode": "第03集",
             "success": true,
-            "duration": 804,
-            "speed": 14298.507462686566
+            "duration": 1277,
+            "speed": 8982.772122161316
           }
         ],
-        "avgSpeed": 19605.146268404773
+        "avgSpeed": 19570.773048785628
       }
     },
     {
@@ -1101,7 +1101,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 306
+        "duration": 203
       },
       "play": {
         "tests": [],
@@ -1117,7 +1117,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 219
+        "duration": 432
       },
       "play": {
         "tests": [],
@@ -1133,7 +1133,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 321
+        "duration": 322
       },
       "play": {
         "tests": [],
@@ -1149,7 +1149,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 338
+        "duration": 253
       },
       "play": {
         "tests": [],
@@ -1181,7 +1181,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 939
+        "duration": 860
       },
       "play": {
         "tests": [],
@@ -1213,18 +1213,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 235
+        "duration": 249
       },
       "play": {
         "tests": [
           {
             "episode": "第1集",
             "success": true,
-            "duration": 568,
-            "speed": 207.74647887323945
+            "duration": 321,
+            "speed": 367.601246105919
           }
         ],
-        "avgSpeed": 207.74647887323945
+        "avgSpeed": 367.601246105919
       }
     },
     {
@@ -1236,18 +1236,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 1254
+        "duration": 1365
       },
       "play": {
         "tests": [
           {
             "episode": "第1集",
             "success": true,
-            "duration": 432,
-            "speed": 273.14814814814815
+            "duration": 672,
+            "speed": 175.59523809523807
           }
         ],
-        "avgSpeed": 273.14814814814815
+        "avgSpeed": 175.59523809523807
       }
     },
     {
@@ -1259,18 +1259,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 463
+        "duration": 537
       },
       "play": {
         "tests": [
           {
             "episode": "在线播放",
             "success": true,
-            "duration": 448,
-            "speed": 256.69642857142856
+            "duration": 418,
+            "speed": 275.1196172248804
           }
         ],
-        "avgSpeed": 256.69642857142856
+        "avgSpeed": 275.1196172248804
       }
     },
     {
@@ -1282,18 +1282,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 131
+        "duration": 161
       },
       "play": {
         "tests": [
           {
             "episode": "第1集",
             "success": true,
-            "duration": 189,
-            "speed": 624.3386243386243
+            "duration": 466,
+            "speed": 253.21888412017165
           }
         ],
-        "avgSpeed": 624.3386243386243
+        "avgSpeed": 253.21888412017165
       }
     },
     {
@@ -1305,18 +1305,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 843
+        "duration": 1036
       },
       "play": {
         "tests": [
           {
             "episode": "全集",
             "success": true,
-            "duration": 304,
-            "speed": 710194.0789473684
+            "duration": 370,
+            "speed": 583510.8108108108
           }
         ],
-        "avgSpeed": 710194.0789473684
+        "avgSpeed": 583510.8108108108
       }
     },
     {
@@ -1325,21 +1325,14 @@
       "api": "https://hsckzy.xyz/api.php/provide/vod",
       "detail": "https://hsckzy.xyz",
       "isAdult": true,
-      "status": "available",
+      "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 2066
+        "duration": 1964
       },
       "play": {
-        "tests": [
-          {
-            "episode": "正片",
-            "success": true,
-            "duration": 344,
-            "speed": 284.8837209302326
-          }
-        ],
-        "avgSpeed": 284.8837209302326
+        "tests": [],
+        "avgSpeed": null
       }
     },
     {
@@ -1351,18 +1344,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 692
+        "duration": 669
       },
       "play": {
         "tests": [
           {
             "episode": "正片",
             "success": true,
-            "duration": 296,
-            "speed": 148706.0810810811
+            "duration": 283,
+            "speed": 155537.10247349823
           }
         ],
-        "avgSpeed": 148706.0810810811
+        "avgSpeed": 155537.10247349823
       }
     },
     {
@@ -1374,18 +1367,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 1039
+        "duration": 1257
       },
       "play": {
         "tests": [
           {
             "episode": "高清",
             "success": true,
-            "duration": 368,
-            "speed": 320.6521739130435
+            "duration": 521,
+            "speed": 226.48752399232245
           }
         ],
-        "avgSpeed": 320.6521739130435
+        "avgSpeed": 226.48752399232245
       }
     },
     {
@@ -1397,18 +1390,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 740
+        "duration": 394
       },
       "play": {
         "tests": [
           {
             "episode": "在线播放",
             "success": true,
-            "duration": 405,
-            "speed": 274.0740740740741
+            "duration": 341,
+            "speed": 325.5131964809384
           }
         ],
-        "avgSpeed": 274.0740740740741
+        "avgSpeed": 325.5131964809384
       }
     },
     {
@@ -1420,18 +1413,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 2066
+        "duration": 1992
       },
       "play": {
         "tests": [
           {
             "episode": "第1集",
             "success": true,
-            "duration": 671,
-            "speed": 175.8569299552906
+            "duration": 750,
+            "speed": 157.33333333333334
           }
         ],
-        "avgSpeed": 175.8569299552906
+        "avgSpeed": 157.33333333333334
       }
     },
     {
@@ -1443,18 +1436,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 217
+        "duration": 210
       },
       "play": {
         "tests": [
           {
             "episode": "在线播放",
             "success": true,
-            "duration": 478,
-            "speed": 244.76987447698747
+            "duration": 394,
+            "speed": 296.9543147208122
           }
         ],
-        "avgSpeed": 244.76987447698747
+        "avgSpeed": 296.9543147208122
       }
     },
     {
@@ -1466,18 +1459,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 1526
+        "duration": 1665
       },
       "play": {
         "tests": [
           {
             "episode": "HD",
             "success": true,
-            "duration": 437,
-            "speed": 267.73455377574373
+            "duration": 465,
+            "speed": 251.61290322580643
           }
         ],
-        "avgSpeed": 267.73455377574373
+        "avgSpeed": 251.61290322580643
       }
     },
     {
@@ -1489,18 +1482,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 1786
+        "duration": 2603
       },
       "play": {
         "tests": [
           {
             "episode": "在线播放",
             "success": true,
-            "duration": 428,
-            "speed": 275.70093457943926
+            "duration": 392,
+            "speed": 301.0204081632653
           }
         ],
-        "avgSpeed": 275.70093457943926
+        "avgSpeed": 301.0204081632653
       }
     },
     {
@@ -1512,14 +1505,14 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 383
+        "duration": 422
       },
       "play": {
         "tests": [
           {
             "episode": "HD",
             "success": false,
-            "duration": 265,
+            "duration": 257,
             "error": "Request failed with status code 404",
             "speed": 0
           }
@@ -1536,18 +1529,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 403
+        "duration": 422
       },
       "play": {
         "tests": [
           {
             "episode": "HD",
             "success": true,
-            "duration": 159,
-            "speed": 735.8490566037735
+            "duration": 222,
+            "speed": 527.027027027027
           }
         ],
-        "avgSpeed": 735.8490566037735
+        "avgSpeed": 527.027027027027
       }
     },
     {
@@ -1559,18 +1552,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 1746
+        "duration": 1711
       },
       "play": {
         "tests": [
           {
             "episode": "高清",
             "success": true,
-            "duration": 754,
-            "speed": 21466.84350132626
+            "duration": 1077,
+            "speed": 15028.783658310122
           }
         ],
-        "avgSpeed": 21466.84350132626
+        "avgSpeed": 15028.783658310122
       }
     },
     {
@@ -1598,18 +1591,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 790
+        "duration": 831
       },
       "play": {
         "tests": [
           {
             "episode": "第1集",
             "success": true,
-            "duration": 411,
-            "speed": 204642.33576642338
+            "duration": 520,
+            "speed": 172382.6923076923
           }
         ],
-        "avgSpeed": 204642.33576642338
+        "avgSpeed": 172382.6923076923
       }
     },
     {
@@ -1621,18 +1614,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 794
+        "duration": 738
       },
       "play": {
         "tests": [
           {
             "episode": "第1集",
             "success": true,
-            "duration": 428,
-            "speed": 250946.261682243
+            "duration": 451,
+            "speed": 240982.2616407982
           }
         ],
-        "avgSpeed": 250946.261682243
+        "avgSpeed": 240982.2616407982
       }
     },
     {
@@ -1644,7 +1637,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 199
+        "duration": 205
       },
       "play": {
         "tests": [],
@@ -1660,14 +1653,14 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 521
+        "duration": 564
       },
       "play": {
         "tests": [
           {
             "episode": "HD",
             "success": false,
-            "duration": 531,
+            "duration": 453,
             "error": "Request failed with status code 403",
             "speed": 0
           }
@@ -1716,7 +1709,7 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 572
+        "duration": 883
       },
       "play": {
         "tests": [
@@ -1740,18 +1733,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 338
+        "duration": 394
       },
       "play": {
         "tests": [
           {
             "episode": "播放链接",
             "success": true,
-            "duration": 604,
-            "speed": 107576.15894039735
+            "duration": 518,
+            "speed": 125436.29343629343
           }
         ],
-        "avgSpeed": 107576.15894039735
+        "avgSpeed": 125436.29343629343
       }
     },
     {
@@ -1763,18 +1756,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 376
+        "duration": 498
       },
       "play": {
         "tests": [
           {
             "episode": "播放链接",
             "success": true,
-            "duration": 152,
-            "speed": 283052.63157894736
+            "duration": 169,
+            "speed": 254579.8816568047
           }
         ],
-        "avgSpeed": 283052.63157894736
+        "avgSpeed": 254579.8816568047
       }
     },
     {
@@ -1786,18 +1779,18 @@
       "status": "available",
       "search": {
         "status": "success",
-        "duration": 571
+        "duration": 416
       },
       "play": {
         "tests": [
           {
             "episode": "HD",
             "success": true,
-            "duration": 636,
-            "speed": 143.0817610062893
+            "duration": 494,
+            "speed": 184.21052631578948
           }
         ],
-        "avgSpeed": 143.0817610062893
+        "avgSpeed": 184.21052631578948
       }
     },
     {
@@ -1809,7 +1802,7 @@
       "status": "play_failed",
       "search": {
         "status": "success",
-        "duration": 982
+        "duration": 924
       },
       "play": {
         "tests": [],
@@ -1825,7 +1818,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 307
+        "duration": 344
       },
       "play": {
         "tests": [],
@@ -1841,7 +1834,7 @@
       "status": "search_failed",
       "search": {
         "status": "no_results",
-        "duration": 289
+        "duration": 337
       },
       "play": {
         "tests": [],
