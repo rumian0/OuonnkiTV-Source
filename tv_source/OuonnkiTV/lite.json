@@ -21,13 +21,6 @@
     "isEnabled": true
   },
   {
-    "id": "iqiyizyapi-com",
-    "name": "爱奇艺",
-    "url": "https://iqiyizyapi.com/api.php/provide/vod",
-    "detailUrl": "https://iqiyizyapi.com",
-    "isEnabled": true
-  },
-  {
     "id": "www-huyaapi-com",
     "name": "虎牙资源",
     "url": "https://www.huyaapi.com/api.php/provide/vod",
@@ -42,17 +35,17 @@
     "isEnabled": true
   },
   {
+    "id": "iqiyizyapi-com",
+    "name": "爱奇艺",
+    "url": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detailUrl": "https://iqiyizyapi.com",
+    "isEnabled": true
+  },
+  {
     "id": "jinyingzy-com",
     "name": "金鹰点播",
     "url": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json",
     "detailUrl": "https://jinyingzy.com",
-    "isEnabled": true
-  },
-  {
-    "id": "api-guangsuapi-com",
-    "name": "光速资源",
-    "url": "https://api.guangsuapi.com/api.php/provide/vod",
-    "detailUrl": "https://api.guangsuapi.com",
     "isEnabled": true
   },
   {
@@ -63,10 +56,24 @@
     "isEnabled": true
   },
   {
+    "id": "ikunzy-com",
+    "name": "iKun资源",
+    "url": "https://ikunzyapi.com/api.php/provide/vod",
+    "detailUrl": "https://ikunzy.com",
+    "isEnabled": true
+  },
+  {
     "id": "www-moduzy-net",
     "name": "魔都资源",
     "url": "https://www.mdzyapi.com/api.php/provide/vod",
     "detailUrl": "https://www.moduzy.net",
+    "isEnabled": true
+  },
+  {
+    "id": "api-guangsuapi-com",
+    "name": "光速资源",
+    "url": "https://api.guangsuapi.com/api.php/provide/vod",
+    "detailUrl": "https://api.guangsuapi.com",
     "isEnabled": true
   },
   {
@@ -77,10 +84,10 @@
     "isEnabled": true
   },
   {
-    "id": "ikunzy-com",
-    "name": "iKun资源",
-    "url": "https://ikunzyapi.com/api.php/provide/vod",
-    "detailUrl": "https://ikunzy.com",
+    "id": "www-ryzyw-com",
+    "name": "如意资源",
+    "url": "https://cj.rycjapi.com/api.php/provide/vod",
+    "detailUrl": "https://www.ryzyw.com",
     "isEnabled": true
   },
   {
@@ -88,13 +95,6 @@
     "name": "360 资源",
     "url": "https://360zyzz.com/api.php/provide/vod",
     "detailUrl": "https://360zy.com",
-    "isEnabled": true
-  },
-  {
-    "id": "www-ryzyw-com",
-    "name": "如意资源",
-    "url": "https://cj.rycjapi.com/api.php/provide/vod",
-    "detailUrl": "https://www.ryzyw.com",
     "isEnabled": true
   }
 ]
